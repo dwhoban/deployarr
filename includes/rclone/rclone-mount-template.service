@@ -14,7 +14,7 @@ ExecStart=/usr/bin/rclone mount REMOTE-NAME-PLACEHOLDER: REMOTE-MOUNTPOINT-PLACE
 --no-modtime \
 --umask 002 \
 --user-agent HOSTNAME-PLACEHOLDER \
---dir-cache-time 24h \
+--dir-cache-time 1h \
 --buffer-size 128M \
 --vfs-fast-fingerprint \
 --vfs-cache-mode full \

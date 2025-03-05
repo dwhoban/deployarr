@@ -9,6 +9,7 @@ services:
     profiles: ["core", "all"]
     networks:
       - default
+    # DEVICES-GPU-PLACEHOLDER-DO-NOT-DELETE
     ports:
       - "$XPIPEWEBTOP_PORT:3000" # HTTP
       # - "3001:3001" # HTTPS

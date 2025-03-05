@@ -1,5 +1,32 @@
 <h3>Releases</h3>
 
+<h5>v5.7 - March 5, 2025</h5>
+Total Supported Apps: 140+
+
+<ul>
+<li>NEW: Added Audiobookshelf, Cloudflare Tunnel, FileZilla, Immich (Phew!), Pi-Hole (v6), Trilium Next, Vikunja, and WikiDocs.</li>
+<li>NEW: Huge focus on self-hosted AI with Flowise, n8n, Ollama, Open-WebUI, OpenHands, Qdrant, and Weaviate.</li>
+<li>NEW: Added Audiobooks and Podcasts folders to support new media apps.</li>
+<li>NEW: Added system health diagnostics and monitoring (Beta).</li>
+<li>NEW: Auto systemd-resolved configuration for Debian systems.</li>
+<li>NEW: Official documentation now available at https://docs.deployarr.app.</li>
+<li>ENHANCEMENT: Enabled hardware acceleration for KASM apps (Kasm, Chromium, DigiKam, Lollypop).</li>
+<li>ENHANCEMENT: Updated Traefik to v3.3, Authentik to 2025.2, Authelia to 4.38.19</li>
+<li>ENHANCEMENT: Added Uptime Kuma to socket_proxy network.</li>
+<li>ENHANCEMENT: Reduced rclone --dir-cache-time from 24h to 1h for more frequent media scans Plex/Jellyfin.</li>
+<li>ENHANCEMENT: Changed file provider IP from SERVER_LAN_IP to DOCKER0_IP.</li>
+<li>ENHANCEMENT: Modified main menu UI, moved verify to prerequisites menu.</li>
+<li>ENHANCEMENT: Added comment on memory overcommit warning to Redis compose.</li>
+<li>ENHANCEMENT: Moved Smokeping to selfh.st icon.</li>
+<li>ENHANCEMENT: Added Immich Folder setup for uploads (System->Folders).</li>
+<li>FIX: Potential fix for malformed compose file.</li>
+<li>FIX: Debian DNS configuration issues.</li>
+<li>FIX: Plex subdomain placeholder issues.</li>
+<li>FIX: Changed app reachable check to IP 127.0.0.1.</li>
+<li>FIX: Simplified resolved.conf template.</li>
+<li>A few other minor improvements that no one cares about.</li>
+</ul>
+
 <h5>v5.6 - January 28, 2025</h5>
 Total Supported Apps: 125
 <ul>
@@ -11,7 +38,7 @@ Total Supported Apps: 125
 <li>ENHANCEMENT: Changed traefik certs dumper image to: ghcr.io/kereis/traefik-certs-dumper:latest.</li>
 <li>FIX: CrowdSec installation issues due to journalctl. Replaced journalctl with rsyslog.</li>
 <li>FIX: Some deployarr dashboard links were obsolete.</li>
-<li>DON'T CARE: Rebranded SmartHomeBeginner to SimpleHOmelab.</li>
+<li>DON'T CARE: Rebranded SmartHomeBeginner to SimpleHomelab.</li>
 <li>CARE: Moved Deployarr resources and dependencies to www.deployarr.app. Hopefully it does not cause any issues.</li>
 <li>A few other minor improvements.</li>
 </ul>

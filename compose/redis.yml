@@ -1,5 +1,6 @@
 services:
   # Redis - Key-value Store
+  # Add vm.overcommit_memory = 1 to /etc/sysctl.conf
   redis:
     image: docker.io/library/redis:alpine
     container_name: redis

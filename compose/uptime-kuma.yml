@@ -9,6 +9,7 @@ services:
     profiles: ["core", "all"]
     networks:
       - default
+      - socket_proxy
     ports:
       - "$UPTIMEKUMA_PORT:3001" 
     volumes:

@@ -10,10 +10,10 @@ services:
     profiles: ["apps", "media", "all"]
     networks:
       - default
+    # DEVICES-GPU-PLACEHOLDER-DO-NOT-DELETE
     ports:
       - "$LOLLYPOP_PORT:3000" # HTTP
     #   - 3001:3001 # HTTPS
-    # DEVICES-GPU-PLACEHOLDER-DO-NOT-DELETE
     volumes:
       - $DOCKERDIR/appdata/lollypop:/config
       # - $MEDIADIR1:/data/media1

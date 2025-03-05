@@ -66,8 +66,8 @@ services:
       - --certificatesResolvers.dns-cloudflare.acme.storage=/acme.json
       - --certificatesResolvers.dns-cloudflare.acme.dnsChallenge.provider=cloudflare
       - --certificatesResolvers.dns-cloudflare.acme.dnsChallenge.resolvers=1.1.1.1:53,1.0.0.1:53
-      - --certificatesResolvers.dns-cloudflare.acme.dnsChallenge.propagation.delayBeforeChecks=120 # To delay DNS check and reduce LE hitrate
-      #- --certificatesResolvers.dns-cloudflare.acme.dnsChallenge.disablePropagationCheck=true
+      - --certificatesResolvers.dns-cloudflare.acme.dnsChallenge.propagation.delaybeforechecks=120 # To delay DNS check and reduce LE hitrate
+      #- --certificatesResolvers.dns-cloudflare.acme.dnsChallenge.propagation.disablechecks=true # Not recommended
       # - METRICS-PLACEHOLDER-DO-NOT-DELETE
     ports:
       - "80:80"
