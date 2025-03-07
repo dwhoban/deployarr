@@ -10,7 +10,7 @@ services:
     depends_on:
       redis:
         condition: service_healthy
-      mariadb:
+      postgresql:
         condition: service_healthy
     entrypoint: /bin/sh -c "sleep 3; flowise start"
     healthcheck:
