@@ -1,5 +1,12 @@
 <h3>Releases</h3>
 
+<h5>v5.7.1 - April 9, 2025</h5>
+<ul>
+<li>Deployarr is now Deployrr (finally got the spelling right!). Many changes to reflect this.</li>
+<li>Updated LICENSE to clarify what is open source what is proprietary. 
+<li>Minor release to ensure nothing breaks. Functionality remains the same.</li>
+</ul>
+
 <h5>v5.7 - March 5, 2025</h5>
 Total Supported Apps: 140+
 
