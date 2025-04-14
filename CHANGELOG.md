@@ -1,10 +1,11 @@
 <h3>Releases</h3>
 
-<h5>v5.7.1 - April 9, 2025</h5>
+<h5>v5.7.1 - April 15, 2025</h5>
 <ul>
-<li>Deployarr is now Deployrr (finally got the spelling right!). Many changes to reflect this.</li>
-<li>Updated LICENSE to clarify what is open source what is proprietary. 
-<li>Minor release to ensure nothing breaks. Functionality remains the same.</li>
+<li>NEW: Deployarr is now Deployrr (finally got the spelling right!). Many changes to reflect this. Minor release to ensure nothing breaks but major functionality remains the same.</li>
+<li>NEW: Updated LICENSE to clarify what is open source what is proprietary. 
+<li>NEW: One-line Deplorr install/setup method. No more 3-step process to get started or manually picking the architecture.</li>
+<li>FIX: Minor fix for qBittorrent VPN appdata path in compose file.</li>
 </ul>
 
 <h5>v5.7 - March 5, 2025</h5>

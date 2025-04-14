@@ -28,18 +28,8 @@ Deployrr revolutionizes homelab setup by automating the deployment and configura
 ## Quick Start
 
 ```bash
-wget https://raw.githubusercontent.com/SimpleHomelab/deployrr/main/deployrr_v5.7.1.app
+bash -c "$(curl -fsSL https://www.deployrr.app/install.sh)"
 ```
-
-```bash
-chmod +x deployrr_v5.7.1.app
-```
-
-```bash
-./deployrr_v5.7.1.app
-```
-
-Note: For Raspberry Pi users, use the `-arm.app` version.
 
 ## Impact & Growth
 ![Deployrr Stats](images/v5/deployrr%20stats%20apr%202025.png)

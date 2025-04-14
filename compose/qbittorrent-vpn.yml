@@ -9,7 +9,7 @@ services:
     profiles: ["apps", "downloads", "all"]
     network_mode: "service:gluetun"
     volumes:
-      - $DOCKERDIR/appdata/qbittorrent:/config
+      - $DOCKERDIR/appdata/qbittorrent-vpn:/config
       - $DOWNLOADSDIR:/data/downloads # Ensure that downloads folder is set to /data/downloads in qBittorrent
     environment:
       TZ: $TZ
