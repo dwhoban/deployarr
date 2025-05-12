@@ -18,4 +18,5 @@ services:
       TZ: $TZ
       PUID: $PUID
       PGID: $PGID
+      HOMEPAGE_ALLOWED_HOSTS: "*"
     # DOCKER-LABELS-PLACEHOLDER

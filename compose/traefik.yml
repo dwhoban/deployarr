@@ -21,6 +21,8 @@ services:
       - --entrypoints.websecure-external.address=:444
       - --entrypoints.websecure-internal.address=:443
       - --entrypoints.traefik.address=:8080
+      - --entrypoints.websecure-external.http3=true
+      - --entrypoints.websecure-internal.http3=true
       - --entrypoints.web-external.http.redirections.entrypoint.to=websecure-external
       - --entrypoints.web-external.http.redirections.entrypoint.scheme=https
       - --entrypoints.web-external.http.redirections.entrypoint.permanent=true

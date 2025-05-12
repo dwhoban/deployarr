@@ -15,7 +15,7 @@ Deployrr revolutionizes homelab setup by automating the deployment and configura
 - **Enterprise-Grade Security**:
   - Socket-Proxy protection
   - CrowdSec integration
-  - Multiple authentication options (Authentik, Authelia, Google OAuth)
+  - Multiple authentication options (Authentik, Authelia, TinyAuth, Google OAuth)
 - **Professional Networking**:
   - Advanced Traefik reverse proxy configuration
   - Flexible exposure modes (Internal, External, or Hybrid)
@@ -24,6 +24,7 @@ Deployrr revolutionizes homelab setup by automating the deployment and configura
   - Intuitive stack management interface
   - Automated backup and restoration
   - Comprehensive monitoring and logging
+  - Remote share mounting (SMB, NFS, Rclone)
 
 ## Quick Start
 
@@ -35,7 +36,7 @@ bash -c "$(curl -fsSL https://www.deployrr.app/install.sh)"
 ![Deployrr Stats](images/v5/deployrr%20stats%20apr%202025.png)
 
 # Supported Apps
-Deployrr can automatically setup Socket Proxy, Traefik (fetch LE SSL certificates), Authentik, Authelia, Portainer, Plex, Jellyfin, Starr Apps, Gluetun, Dozzle, Uptime-Kuma, Homepage, CrowdSec, and other apps. 
+Deployrr can automatically setup Socket Proxy, Traefik (fetch LE SSL certificates), Authentik, Authelia, TinyAuth, Portainer, Plex, Jellyfin, Starr Apps, Gluetun, Dozzle, Uptime-Kuma, Homepage, CrowdSec, and other apps. 
 
 [Full List of Apps](APPS.md)
 

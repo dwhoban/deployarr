@@ -70,6 +70,7 @@
 - **Authelia**: An authentication and authorization server providing 2-factor authentication and single sign-on (SSO).
 - **Socket Proxy**: A configurable proxy for Docker Socket.
 - **OAuth**: OAuth login from several providers, including Google OAuth 2.0.
+- **TinyAuth**: Lightweight self-hosted Single Sign-On, 2-FA, and OAuth.
 - **CrowdSec**: An open-source and collaborative security solution.
 - **CrowdSec Firewall Bouncer**: A CrowdSec bouncer for blocking IPs in your firewall.
 

@@ -1,7 +1,7 @@
 services:
   # Deployrr Dashboard - Homepage based Dashboard for Deployrr
   deployrr-dashboard:
-    image: ghcr.io/gethomepage/homepage:v0.9.13
+    image: ghcr.io/gethomepage/homepage:v1.2.0 #v0.9.13
     container_name: deployrr-dashboard
     security_opt:
       - no-new-privileges:true
@@ -19,4 +19,5 @@ services:
       TZ: $TZ
       PUID: $PUID
       PGID: $PGID
+      HOMEPAGE_ALLOWED_HOSTS: "*"
     # DOCKER-LABELS-PLACEHOLDER

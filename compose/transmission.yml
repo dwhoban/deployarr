@@ -15,8 +15,8 @@ services:
       - "51413:51413/udp"
     volumes:
       - $DOCKERDIR/appdata/transmission:/config
-      - $DOWNLOADSDIR/torrents:/downloads
-      - $DOWNLOADSDIR:/watch
+      - $DOWNLOADSDIR/torrents:/data/downloads
+      - $DOWNLOADSDIR:/data/watch
     environment:
       - PUID=$PUID
       - PGID=$PGID

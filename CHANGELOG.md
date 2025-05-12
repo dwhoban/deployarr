@@ -1,5 +1,26 @@
 <h3>Releases</h3>
 
+<h5>v5.8 - May 12, 2025</h5>
+Total Supported Apps: 140+
+<ul>
+<li>NEW: Added TinyAuth - Lightweight self-hosted Single Sign-On and OAuth solution.</li>
+<li>NEW: Added YAML Yoda - YAML validation tool integrated into health checks. Helps identify YAML issues in compose files.</li>
+<li>NEW: Added SMB and NFS mount options under new Mounts menu.</li>
+<li>NEW: Added Docker Login under Docker menu.</li>
+<li>NEW: Redesigned Manage Auth interface for better auth provider selection.</li>
+<li>ENHANCEMENT: Added HTTP/3 support to Traefik (not fully tested).</li>
+<li>ENHANCEMENT: Added allowed hosts to Homepage and Deployrr Dashboard.</li>
+<li>ENHANCEMENT: Auto-add file provider for Deployrr Dashboard after Traefik setup.</li>
+<li>ENHANCEMENT: Updated transmission download path to match Arr apps.</li>
+<li>ENHANCEMENT: Improved UX. Menus won't rewrite/clear terminal message history.</li>
+<li>FIX: Various Docker aliases and .bashrc integration fixes.</li>
+<li>FIX: Improved auth provider validation in Manage Auth.</li>
+<li>FIX: Removed obsolete Deployarr Dashboard includes.</li>
+<li>FIX: Pin reset/reminder email was not being sent.</li>
+<li>VISUAL: Updated Deployrr icon in dashboard.</li>
+<li>A few other minor improvements and bug fixes.</li>
+</ul>
+
 <h5>v5.7.1 - April 15, 2025</h5>
 <ul>
 <li>NEW: Deployarr is now Deployrr (finally got the spelling right!). Many changes to reflect this. Minor release to ensure nothing breaks but major functionality remains the same.</li>
