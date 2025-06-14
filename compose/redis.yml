@@ -8,7 +8,7 @@ services:
       - no-new-privileges:true
     restart: unless-stopped
     profiles: ["core", "all"]
-    command: --save 60 1 --loglevel warning
+    command: redis-server --save "" --maxmemory 256mb --appendonly no --maxmemory-policy allkeys-lru
     healthcheck:
       test: ["CMD-SHELL", "redis-cli ping | grep PONG"]
       start_period: 20s
@@ -19,6 +19,7 @@ services:
       - default
     ports:
       - "$REDIS_PORT:6379"
-    volumes:
-      - $DOCKERDIR/appdata/redis:/data
-
+    deploy:
+      resources:
+        limits:
+          memory: 256MB

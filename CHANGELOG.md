@@ -1,5 +1,22 @@
 <h3>Releases</h3>
 
+<h5>v5.9 - June 14, 2025</h5>
+<ul>
+<li>NEW: Added Homer - A simple static homepage for your server.</li>
+<li>NEW: Added Change Hostname tool under Tools menu - useful when migrating to a different host.</li>
+<li>ENHANCEMENT: Improved SMB mount security with credentials files.</li>
+<li>ENHANCEMENT: Added hostname mismatch detection to health checks.</li>
+<li>ENHANCEMENT: Updated GPTWOL to use database instead of computers.txt.</li>
+<li>ENHANCEMENT: Made Traefik dashboard port configurable via TRAEFIK_PORT variable.</li>
+<li>ENHANCEMENT: Updated Redis configuration and compose.</li>
+<li>ENHANCEMENT: Version updates (Authentik 2025.2 -> 2025.6.1, Authelia 4.38.19 -> 4.39.4, Traefik 3.3 -> 3.4, Deployrr Dashboard 1.2 -> 1.3.2)
+<li>FIX: App descriptions were not being added to Deployrr Dashboard in some cases.</li>
+<li>FIX: Existing Traefik SSL certs were not being respected - Deployrr was proceeding with Traefik logs monitoring when not needed.</li>
+<li>FIX: Fixed Deployrr Dashboard URL not being added after Traefik setup (e.g. https://deployrr.example.com).</li>
+<li>FIX: Updated Deployrr Dashboard bookmarks.yaml.</li>
+<li>FIX: Authentik media folder permissions issue.</li>
+</ul>
+
 <h5>v5.8 - May 12, 2025</h5>
 Total Supported Apps: 140+
 <ul>

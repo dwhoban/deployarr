@@ -24,7 +24,7 @@ alias dlogsize='sudo du -ch $(sudo docker inspect --format='{{.LogPath}}' $(sudo
 alias dips="sudo docker ps -q | xargs -n 1 sudo docker inspect -f '{{.Name}}%tab%{{range .NetworkSettings.Networks}}{{.IPAddress}}%tab%{{end}}' | sed 's#%tab%#\t#g' | sed 's#/##g' | sort | column -t -N NAME,IP\(s\) -o $'\t'"      # List IP addresses of all containers
 
 # Docker Container Management
-alias dstop='sudo docker stop $(sudo docker ps -a -q)'      # Stop a specific container
+alias dstop='sudo docker stop'      # Stop a specific container
 alias dstopall='sudo docker stop $(sudo docker ps -aq)'      # Stop all running containers
 alias drm='sudo docker rm $(sudo docker ps -a -q)'      # Remove specified containers
 

@@ -18,6 +18,6 @@ services:
       - REFRESH_PING=60 # in seconds
       # - PING_TIMEOUT=200 # in milliseconds
     volumes:
-      - $DOCKERDIR/appdata/gptwol/computers.txt:/app/computers.txt
+      - $DOCKERDIR/appdata/gptwol/db:/app/db
       - $DOCKERDIR/appdata/gptwol/cron:/etc/cron.d      
     # DOCKER-LABELS-PLACEHOLDER
