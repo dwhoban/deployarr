@@ -40,3 +40,4 @@ services:
       # HTTP Services
       - "traefik.http.routers.oauth-rtr.service=oauth-svc"
       - "traefik.http.services.oauth-svc.loadbalancer.server.port=4181"
+    # DOCKER-LABELS-PLACEHOLDER  

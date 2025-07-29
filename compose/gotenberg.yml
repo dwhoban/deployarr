@@ -15,3 +15,4 @@ services:
       - "gotenberg"
       - "--chromium-disable-javascript=true"
       - "--chromium-allow-list=file:///tmp/.*"
+    # DOCKER-LABELS-PLACEHOLDER  

@@ -14,3 +14,4 @@ services:
       - HEALTH_SERVER_ADDRESS=127.0.0.1:9999
       - TZ=$TZ
       - DOCKER_HOST
+    # DOCKER-LABELS-PLACEHOLDER  

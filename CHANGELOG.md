@@ -1,4 +1,22 @@
 <h3>Releases</h3>
+Total Supported Apps: 145+
+<h5>v5.10 - July 29, 2025</h5>
+<ul>
+<li>NEW: Added Watchtower for automatic container updates.</li>
+<li>NEW: Added Cleanuparr and Huntarr utilities.</li>
+<li>NEW: Added CrowdSec Traefik Bouncer.</li>
+<li>ENHANCEMENT: Major speed improvements for Stack Manager and Apps menu by optimizing app status checks and dialog box sizing.</li>
+<li>ENHANCEMENT: Moved Docker aliases to UDMS bash aliases, included migration script, and improved alias deployment.</li>
+<li>ENHANCEMENT: Docker Compose pull alias (dcpull) now pulls one container at a time to not overload the CPU.</li>
+<li>ENHANCEMENT: Improved dashboard descriptions for Authelia, Authentik, and Google OAuth.</li>
+<li>ENHANCEMENT: Added additional ways to check internet connectivity. This was failing for some folks.</li>
+<li>ENHANCEMENT: Added default network to CrowdSec compose.</li>
+<li>ENHANCEMENT: Added missing Docker labels placeholder in templates.</li>
+<li>ENHANCEMENT: Fixed YAML syntax errors that prevented apps from being added to the dashboard.</li>
+<li>ENHANCEMENT: Removed Readarr (unmaintained).</li>
+<li>DOCS: Updated README and APPS.md.</li>
+<li>Numerous other logic and reliability improvements.</li>
+</ul>
 
 <h5>v5.9 - June 14, 2025</h5>
 <ul>

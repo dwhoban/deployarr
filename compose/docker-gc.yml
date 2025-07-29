@@ -22,3 +22,4 @@ services:
       - CLEAN_UP_VOLUMES=1
       - TZ=$TZ
       - DOCKER_HOST
+    # DOCKER-LABELS-PLACEHOLDER  

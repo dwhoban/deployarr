@@ -2,7 +2,7 @@
 
 > Transform your homelab setup from complex to click! Deployrr is your all-in-one solution for automated Docker-based homelab deployment.
 
-[![Apps Supported](images/v5/Deployrr%20App%20Logos%20140.png)](APPS.md)
+[![Apps Supported](images/v5/2025_07_29_deployrr_145.png)](APPS.md)
 
 ## What is Deployrr?
 
@@ -10,7 +10,7 @@ Deployrr revolutionizes homelab setup by automating the deployment and configura
 
 ### Key Features
 
-- **Extensive App Support**: 140+ pre-configured applications ready for deployment
+- **Extensive App Support**: 145+ pre-configured applications ready for deployment
 - **Intelligent Automation**: Automated environment setup with smart system checks
 - **Enterprise-Grade Security**:
   - Socket-Proxy protection
@@ -33,7 +33,7 @@ bash -c "$(curl -fsSL https://www.deployrr.app/install.sh)"
 ```
 
 ## Impact & Growth
-![Deployrr Stats](images/v5/deployrr%20stats%20apr%202025.png)
+![Deployrr Stats](images/v5/2025_07_29_deployrr_stats.png)
 
 # Supported Apps
 Deployrr can automatically setup Socket Proxy, Traefik (fetch LE SSL certificates), Authentik, Authelia, TinyAuth, Portainer, Plex, Jellyfin, Starr Apps, Gluetun, Dozzle, Uptime-Kuma, Homepage, CrowdSec, and other apps. 

@@ -7,9 +7,11 @@ services:
       - no-new-privileges:true
     restart: unless-stopped
     profiles: ["core", "all"]
+    networks:
+      - default
     ports:
       - "$CROWDSEC_PORT:8080" # Local API port
-      - "6060:6060" # Exposing metrics via Zerotier IP
+      - "6060:6060" # Exposing metrics 
     environment:
       COLLECTIONS: "crowdsecurity/traefik crowdsecurity/http-cve crowdsecurity/whitelist-good-actors crowdsecurity/iptables crowdsecurity/linux fulljackz/proxmox crowdsecurity/sshd"
       GID: $PGID
@@ -19,3 +21,4 @@ services:
       - /var/log:/var/log:ro
       - $DOCKERDIR/appdata/crowdsec/data:/var/lib/crowdsec/data
       - $DOCKERDIR/appdata/crowdsec/config:/etc/crowdsec
+    # DOCKER-LABELS-PLACEHOLDER  

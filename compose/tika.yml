@@ -9,3 +9,4 @@ services:
     profiles: ["apps", "all"]
     networks:
       - default
+    # DOCKER-LABELS-PLACEHOLDER

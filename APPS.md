@@ -1,4 +1,4 @@
-# Deployarr Apps - 140 (and increasing)
+# Deployarr Apps - 145 (and increasing)
 
 ## Reverse Proxy and Tunnels
 - **Traefik**: A modern HTTP reverse proxy and load balancer that makes deploying microservices easy.
@@ -21,7 +21,7 @@
 - **Radarr**: A movie collection manager for Usenet and BitTorrent users.
 - **Sonarr**: A PVR for Usenet and BitTorrent users to manage TV series.
 - **Lidarr**: A music collection manager for Usenet and BitTorrent users.
-- **Readarr**: A book collection manager for Usenet and BitTorrent users.
+- <del>**Readarr**: A book collection manager for Usenet and BitTorrent users<del> (Not Maintained).
 - **Bazarr**: A companion application to Sonarr and Radarr that manages and downloads subtitles.
 - **Jackett**: A proxy server that translates queries from apps like Sonarr and Radarr into tracker-site-specific HTTP queries.
 - **Maintainerr**: A tool for managing and maintaining your Docker containers.
@@ -34,6 +34,8 @@
 - **Notifiarr**: A notification service for media server applications. Client for Notifiarr.com.
 - **Beets**: A music library manager and MusicBrainz tagger.
 - **Audiobookshelf**: A self-hosted audiobook and podcast server.
+- **Huntarr**: Missing media and upgrade utility.
+- **Cleanuparr**: Arr stack and media cleanup utility.
 
 ## Downloaders
 - **NZBGet**: A Usenet downloader optimized for performance and efficiency.
@@ -73,6 +75,7 @@
 - **TinyAuth**: Lightweight self-hosted Single Sign-On, 2-FA, and OAuth.
 - **CrowdSec**: An open-source and collaborative security solution.
 - **CrowdSec Firewall Bouncer**: A CrowdSec bouncer for blocking IPs in your firewall.
+- **Traefik Bouncer**: A security bouncer for Traefik that integrates with CrowdSec to block malicious IP addresses.
 
 ## Dashboards
 - **Homepage**: A simple, standalone homepage for your server.
@@ -124,6 +127,7 @@
 - **Dockwatch**: A monitoring tool for Docker containers.
 - **What's Up Docker (WUD)**: A tool to monitor and update your Docker containers.
 - **DweebUI**: A customizable web-based user interface for managing various Docker applications.
+- **Watchtower**: A container-based solution for automating Docker container base image updates.
 
 ## File Management
 - **FileZilla**: A fast and reliable FTP, FTPS and SFTP client with GUI.

@@ -15,3 +15,4 @@ services:
       # - /var/run/docker.sock:/var/run/docker.sock:ro # Only needed if restarting containers (use Docker Socket Proxy instead)
     environment:
       DOMAIN: $DOMAINNAME_1
+    # DOCKER-LABELS-PLACEHOLDER

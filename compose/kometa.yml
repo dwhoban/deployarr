@@ -20,4 +20,5 @@ services:
       KOMETA_RUN: False #optional
       KOMETA_TEST: False #optional
       KOMETA_NO_MISSING: False #optional
+    # DOCKER-LABELS-PLACEHOLDER  
 

@@ -23,3 +23,4 @@ services:
       retries: 1
     labels: # Traefik labels added via file provider app-qbittorrent.yml in rules folder
       - "deunhealth.restart.on.unhealthy=true"
+    # DOCKER-LABELS-PLACEHOLDER
